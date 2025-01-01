@@ -23,7 +23,7 @@ vendas (colunas: "produto", "quantidade", "preço"). O programa deve:
 (Curso de LangChain: Prioridade Alta) 
 Utilizando a biblioteca LangChain, crie uma aplicação simples que: 
 • Configure um modelo de linguagem para responder a perguntas sobre um texto 
-fornecido pelo usuário. 
+fornecido pelo usuário.
 • Receba como entrada um texto qualquer digitado pelo usuário. 
 • Permita ao usuário fazer perguntas sobre o texto e exiba as respostas geradas pelo 
 modelo. 

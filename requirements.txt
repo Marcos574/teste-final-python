@@ -1,0 +1,5 @@
+python-dotenv
+langchain_openai
+pytest
+google-generativeai
+requests
