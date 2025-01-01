@@ -30,13 +30,26 @@ def analisar_numeros(number_list):
 
     return response
 
+def exibir_resultado(response):
+    print("Resultado da Análise:")
+    print("-" * 30)
+    
+    for chave, valor in response.items():
+        if chave == 'media':
+            valor = f"{float(valor):.2f}"
+        print(f"{chave.capitalize()}: {valor}")
+    
+    print("-" * 30)
+
 
 def main():
 
-    numeros = [1, 3, 12, 15, 31, 20, 2]
+    entrada = input("Digite os números separados por espaço: \n")
+    numeros = list(map(int, entrada.split()))
 
-    print(analisar_numeros(numeros))
+    exibir_resultado(analisar_numeros(numeros))
 
 
 if __name__ == '__main__':
     main()
+    
