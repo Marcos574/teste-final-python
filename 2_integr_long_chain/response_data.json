@@ -1,0 +1,32 @@
+{
+    "content": " O que podemos aprender com a fábula da rã e o touro é sobre os perigos de se comparar descontroladamente aos outros e tentar desesperadamente se igualar a eles. A rã, por inveja do tamanho e força do touro, tentou inchar além de suas capacidades, o que acabou levando-a à sua destruição.\n\nEm vez disso, cada um deve se concentrar em seus próprios pontos fortes e trabalhar neles para melhorar e alcançar seus objetivos. Ao invés de se comparar e tentar ser como outra pessoa, é importante se aceitar e se amar como é, enquanto se trabalha para se melhorar.\n\nAlém disso, a fábula também nos ensina sobre os perigos de se deixar controlar pela inveja e por outras emoções negativas. A rã permitiu que a inveja a controlasse e a levasse a fazer algo imprudente e perigoso. Em vez disso, é importante controlar nossas emoções e tomar decisões racionais e atentamente.",
+    "additional_kwargs": {
+        "refusal": null
+    },
+    "response_metadata": {
+        "token_usage": {
+            "completion_tokens": 282,
+            "prompt_tokens": 210,
+            "total_tokens": 492,
+            "completion_tokens_details": null,
+            "prompt_tokens_details": null
+        },
+        "model_name": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+        "system_fingerprint": null,
+        "finish_reason": "eos",
+        "logprobs": null
+    },
+    "type": "ai",
+    "name": null,
+    "id": "run-59181357-7bf4-4fb8-adbf-2bf5621d619b-0",
+    "example": false,
+    "tool_calls": [],
+    "invalid_tool_calls": [],
+    "usage_metadata": {
+        "input_tokens": 210,
+        "output_tokens": 282,
+        "total_tokens": 492,
+        "input_token_details": {},
+        "output_token_details": {}
+    }
+}
