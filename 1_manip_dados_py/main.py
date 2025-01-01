@@ -1,13 +1,13 @@
 import csv
 
-def reader_csv():
+def reader_csv(path):
     """
     Função para leitura e verificações se o arquivo csv recebido é válido.
     Ela lê o arquivo csv e retorna uma lista de dicionarios, onde cada dicionario é um produto,
     que contém as chaves "produto", "quantidade" e "preco", além de seus respectivos valores
     """
 
-    with open('teste1.csv', newline='') as csvfile:
+    with open(path, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
 
         expected_columns = {'produto', 'quantidade', 'preco'}
@@ -64,19 +64,19 @@ def more_profit_product(products):
             most_profit_products_list.append(row)
 
     if num_prod_most_profit <= 1:
-        print(f'O produto com maior valor arrecadado é {products[most_profit_product]['produto']}, que arrecadou {products[most_profit_product]['total']} R$')
+        print(f'O produto com maior valor arrecadado é {products[most_profit_product]["produto"]}, que arrecadou {products[most_profit_product]["total"]} R$')
     else:
         print('Os produtos com maior valor arrecadado são: ')
         for i in range(0, len(products)):
             if products[i]['total'] == most_profit_value:
-                print(f'{products[i]['produto']}, que arrecadou {products[i]['total']} R$')
+                print(f'{products[i]["produto"]}, que arrecadou {products[i]["total"]} R$')
 
     print('\n')
     return most_profit_products_list
 
 def main():
 
-    products = reader_csv()
+    products = reader_csv(path='teste2.csv')
     products_with_total = total_products(products)
 
     more_profit_product(products_with_total)
