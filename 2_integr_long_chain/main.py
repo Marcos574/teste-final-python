@@ -26,7 +26,7 @@ def ai_message_to_dict(ai_message):
 
 def make_prompt(question):
 
-    with open('user_text.txt', 'r', encoding='utf-8') as file:
+    with open('dados/user_text.txt', 'r', encoding='utf-8') as file:
         user_text = file.read()
 
     prompt = {"context": user_text, "question": question}

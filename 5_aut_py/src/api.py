@@ -27,5 +27,5 @@ def request(url):
 
     data = response.json()
 
-    with open("response_data.json", "w", encoding="utf-8") as json_file:
+    with open("dados/response_data.json", "w", encoding="utf-8") as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)

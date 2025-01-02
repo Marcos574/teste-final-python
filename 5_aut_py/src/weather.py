@@ -98,7 +98,7 @@ def display_weather_data(start_end, temperature, average_wind_speed, precipitati
 
 def weather_data_processing():
     """Função principal que orquestra as outras"""
-    json_file = 'response_data.json'
+    json_file = 'dados/response_data.json'
     
     data = load_data(json_file)
     

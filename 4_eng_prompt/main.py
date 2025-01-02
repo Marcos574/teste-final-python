@@ -12,7 +12,7 @@ def config_api():
     model = genai.GenerativeModel('gemini-1.5-flash')
 
 def consult_gemini_api():
-    with open('prompt_problema.txt', 'r', encoding='utf-8') as file:
+    with open('dados/prompt_problema.txt', 'r', encoding='utf-8') as file:
         prompt_problema = file.read()
 
     messages = []

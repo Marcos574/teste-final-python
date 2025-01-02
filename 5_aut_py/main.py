@@ -1,5 +1,5 @@
-from weather import weather_data_processing
-from api import request, create_url
+from src.weather import weather_data_processing
+from src.api import request, create_url
 
 def main():
 

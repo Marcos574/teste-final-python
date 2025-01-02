@@ -2,7 +2,6 @@ import pytest
 
 from main import analisar_numeros
 
-
 @pytest.mark.parametrize("list, result", [
     ([1, 2, 3, 4, 5], {'media':3, 'maior': 5, 'menor':1, 'pares':2}),
     ([4, 2, 70, 30, 22], {'media':25.6, 'maior': 70, 'menor':2, 'pares':5}),

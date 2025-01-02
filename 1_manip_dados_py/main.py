@@ -76,7 +76,7 @@ def more_profit_product(products):
 
 def main():
 
-    products = reader_csv(path='teste2.csv')
+    products = reader_csv(path='planilhas/teste2.csv')
     products_with_total = total_products(products)
 
     more_profit_product(products_with_total)
