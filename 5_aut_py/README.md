@@ -2,14 +2,14 @@
 
 ## Instrução
 
-(Curso Formação Python: Prioridade Alta) 
+(Curso Formação Python: Prioridade Alta)  
 Escreva um script que automatize o seguinte cenário: 
 
 • Acesse uma API pública (por exemplo, de previsão do tempo ou cotação de 
-moedas). 
-• Busque informações relevantes. 
-• Salve os dados obtidos em um arquivo JSON. 
-• Exiba um resumo das informações no console.
+moedas).  
+• Busque informações relevantes.  
+• Salve os dados obtidos em um arquivo JSON.  
+• Exiba um resumo das informações no console. 
 
 ## Funcionalidades
 

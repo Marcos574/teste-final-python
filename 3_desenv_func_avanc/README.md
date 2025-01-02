@@ -2,13 +2,13 @@
 
 ## Instrução
 
-(Curso Python 3: Prioridade Baixa) 
+(Curso Python 3: Prioridade Baixa)  
 Crie uma função Python chamada analisar_numeros() que receba uma lista de números 
-como argumento. A função deve retornar: 
+como argumento. A função deve retornar:   
 
-• A média dos números. 
-• O maior e o menor número da lista. 
-• Quantos números são pares.
+• A média dos números.   
+• O maior e o menor número da lista.  
+• Quantos números são pares. 
 
 Inclua testes para validar a função com diferentes entradas. 
 

@@ -2,13 +2,13 @@
 
 ## Instrução
 
-(Curso de Formação Python: Prioridade Alta) 
+(Curso de Formação Python: Prioridade Alta)  
 Escreva um programa em Python que receba um arquivo CSV contendo informações de 
-vendas (colunas: "produto", "quantidade", "preço"). O programa deve: 
+vendas (colunas: "produto", "quantidade", "preço"). O programa deve:  
 
-• Ler os dados do arquivo. 
-• Calcular o total arrecadado para cada produto. 
-• Exibir o produto com maior valor arrecadado. 
+• Ler os dados do arquivo.  
+• Calcular o total arrecadado para cada produto.  
+• Exibir o produto com maior valor arrecadado.  
 
 ## Requisitos
 

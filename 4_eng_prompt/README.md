@@ -2,16 +2,15 @@
 
 ## Instrução
 
-(Curso Mestre da IA: Prioridade Alta) 
+(Curso Mestre da IA: Prioridade Alta)  
 Utilizando um modelo de linguagem de IA como o OpenAI GPT (ou similar), crie um script 
-que: 
+que:  
 
-• Apresente um prompt inicial para o usuário descrevendo um problema. 
-• Permita ao usuário refinar o problema com novas informações. 
-• Gere três soluções alternativas para o problema descrito. 
+• Apresente um prompt inicial para o usuário descrevendo um problema.  
+• Permita ao usuário refinar o problema com novas informações.  
+• Gere três soluções alternativas para o problema descrito.  
 
-Obs.: Explique como o script utiliza princípios de engenharia de prompts para melhorar as 
-respostas do modelo. 
+Obs.: Explique como o script utiliza princípios de engenharia de prompts para melhorar as respostas do modelo. 
 
 ## Requisitos
 
