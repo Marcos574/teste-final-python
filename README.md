@@ -63,7 +63,39 @@ moedas).
 
 ## Organização
 
-O teste está organizado em pastas, onde cada pasta na raiz deste arquivo seria uma questão do teste. A instrução para execução de cada questão está dentro de sua respectiva pasta, bem como possíveis testes, quando solicitados.
+O teste está organizado em pastas, onde cada pasta na raiz deste arquivo seria uma questão do teste. 
+A instrução para execução de cada questão está dentro de sua respectiva pasta em um README, bem como possíveis testes, quando solicitados.
+
+## Ambiente
+
+A configuração básica de ambiente é a instalação das bibliotecas que estão no [requirements.txt](requirements.txt).
+
+```
+pip install -r requirements.txt
+```
+
+Além da criação de um arquivo .env na raiz no projeto para armazenar as variáveis de ambiente, com as chaves das apis da 
+[meteo_blue](https://docs.meteoblue.com/en/weather-apis/free-weather-api/overview), 
+do [gemini](https://ai.google.dev/gemini-api/docs?hl=pt-br) e 
+da [together ai](https://docs.together.ai/docs/quickstart).
+
+O arquivo .env deve se parecer com:
+
+```
+TOGETHER_API_KEY="SUA_CHAVE"
+METEO_BLUE_API_KEY="SUA_CHAVE"
+GEMINI_API_KEY="SUA_CHAVE"
+```
+
+## Execução
+
+De forma geral basta entrar na pasta da questão e executar o script main.py
+
+```bash
+python main.py
+```
+
+Mais informações sobre oque cada questão utiliza está no README referente à questão em cada pasta.
 
 ## Entrega
 
